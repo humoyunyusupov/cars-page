@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 150px;
+}
+.cars-list {
+  list-style: none;
+  display: flex;
+}
+.cars-item {
+  padding: 48px;
+  width: 307px;
+  background: #e28625;
+  border-radius: 8px;
+}
+.item-blue {
+  background: rgba(0, 105, 113, 1);
+}
+.item-darkblue {
+  background: rgba(0, 65, 64, 1);
+}
+.cars-item-title {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.cars-item-text {
+  margin-bottom: 83px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+.learn-more {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 11px 35px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.learn-more:hover{
+    color: #ffffff;
+}
+
+.learn-orange {
+  color: rgba(226, 134, 37, 1);
+}
+.learn-orange:hover{
+    border: 2px solid white;
+    background:  rgba(226, 134, 37, 1);
+}
+.learn-blue {
+  color: rgba(0, 105, 113, 1);
+}
+.learn-blue:hover{
+    border: 2px solid white;
+    background:  rgba(0, 105, 113, 1);
+}
+.learn-darkblue {
+  color: rgba(0, 65, 64, 1);
+}
+.learn-darkblue:hover{
+    border: 2px solid white;
+    background:  rgba(0, 65, 64, 1);
+}
